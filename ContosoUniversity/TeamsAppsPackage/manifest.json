@@ -1,0 +1,35 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.0",
+  "id": "287933d7-f9e0-4dbf-8400-2f1980707764",
+  "version": "1.0",
+  "packageName": "FirstCSharpConnector",
+  "developer": {
+    "name": "Developer",
+    "websiteUrl": "https://95d7e768.ngrok.io/",
+    "privacyUrl": "https://95d7e768.ngrok.io/",
+    "termsOfUseUrl": "https://95d7e768.ngrok.io/"
+  },
+  "description": {
+    "full": "This connector sends message whenever new student is added into database.",
+    "short": "This is a test connector created in C#."
+  },
+  "icons": {
+    "outline": "https://outlook.office.com/connectors/Content/Images/IncomingWebhook.jpg",
+    "color": "https://outlook.office.com/connectors/Content/Images/IncomingWebhook.jpg"
+  },
+  "connectors": [
+    {
+      "connectorId": "287933d7-f9e0-4dbf-8400-2f1980707764",
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "name": {
+    "full": "FirstCSharConnector",
+    "short": "FirstCSharConnector"
+  },
+  "accentColor": "#FFFFFF",
+  "needsIdentity": "true"
+}
